@@ -1,0 +1,32 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root{
+    --cor-de-fundo: #fff;
+    --branco: #fff;
+    --laranja: #3d6930;
+    --azul-texto: #4ca463;
+    --azul-degrade: linear-gradient(120deg, #3D6930, #4CA463);
+    --fonte-principal: "Montserrat";
+    --fonte-secundaria: "Montserrat";
+    --preto: #030302;
+    --cinza: #474646;
+    --cinza-claro: #3d6930;
+
+    /* linear-gradient(160deg, #002F52 0%, #326589 100%); */
+
+    
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
